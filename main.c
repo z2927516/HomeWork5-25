@@ -4,7 +4,7 @@
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
-void bubbleSort( int*array, unsigned int size );/*prototye*/
+void bubbleSort( int*const array, unsigned int size );/*prototye*/
 
 int main(void) {
 	int a[SIZE]={2,10,5,30,8,19,22,16,3,7};/*initlize arry a*/
